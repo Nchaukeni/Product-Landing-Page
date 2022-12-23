@@ -1,0 +1,247 @@
+*{
+    font-family: 'montserrat', sans-serif;
+}
+body {
+    margin: 0px;
+    background-color: black;
+    color:#40514E;
+}
+.main-doc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6.25rem;
+    color: #fff2df;
+}
+#Intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#header {
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+   justify-content: space-between;
+    padding: 0px 20px;
+    background: #CD7F32;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+#form{
+    align-items: center;
+} 
+
+#email , #submit {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#email {
+    width: 100%;
+    max-width: 17.18rem;
+    padding: 5px; 
+    background-color: lightgray; 
+    border: 0;
+    border-radius: 3px;
+    height: 1.9rem;
+}
+#submit {
+    width: 100%;
+    max-width: 9.625rem;
+    height: 1.875rem;
+    background-color: #f1c40f;
+    margin: 15px auto;
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    font-weight:900;
+
+}
+#submit:hover {
+    background-color: #CD7F32;
+}
+.navbar-nav {
+    display: flex;
+    text-decoration: none;
+    
+}
+li {
+    display: inline;
+    text-decoration: none;
+    margin: 0rem 1.5rem;
+}
+a {
+    text-decoration: none;
+    color: #40514E;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.product-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Feature {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+.Feature-img1 {
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
+.sun-container {
+    width: 50%;
+    color: lightgray;
+    background: linear-gradient(90deg, black, #262626);
+    margin: 1.25rem 0;
+    border: 0;
+    border-radius: 8px;
+    padding: 0 1.25rem;
+    line-height: 2;
+}
+.product-name {
+    color: #fff2df;
+}
+
+#How-It-Works {
+    display: flex;
+    justify-content: center;
+}
+.VidExp {
+    width: 50%;
+    line-height: 2;
+    border: solid 1px #40514E;
+    padding: 20px 20px;
+    text-align: center;
+    color: lightgray;
+    height: 700px;
+}
+.Pricing-img{
+    width: 150px;
+    height: 100px;
+}
+#Pricing {
+    display:flex;
+    margin: 30px 0;
+    justify-content: space-evenly;
+}
+.container1 {
+    display:flex;
+    border: solid 1px #40514E;
+    padding: 20px;
+    color: lightgray;
+    width: 35%;
+    margin-bottom: 20px;
+}
+.container2{
+    display:flex;
+    border: solid 1px #40514E;
+    padding: 20px;
+    color: lightgray;
+    width: 35%;
+    margin-bottom: 20px;
+}
+.container3{
+    display:flex;
+    padding: 20px;
+    color: lightgray;
+    width: 35%;
+    border: solid 1px #40514E;
+}
+.Name-Price{
+    line-height: 1.5;
+    
+}
+#Footer {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: #CD7F32;
+    justify-content: center;
+}
+.D-container {
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.Contact-details{
+    display:block;
+}
+@media (max-width: 900px) {
+    body {
+        font-size: 10px;
+    }
+    #header {
+        font-size: 13px;
+    }
+    .Feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+    }
+    #Pricing {
+        display:flex;
+        flex-direction: column;
+        margin: 20px 0;
+        align-items: center;
+    }
+    .container1 {
+        display:flex;
+        flex-direction:column;
+        border: solid 1px #40514E;
+        padding: 20px;
+        color: lightgray;
+        margin: 0 20px 20px 20px;
+        align-items: center;
+    }
+    .container2{
+        display:flex;
+        border: solid 1px #40514E;
+        padding: 20px;
+        color: lightgray;
+        margin: 0 20px 20px 20px;
+        flex-direction:column;
+        align-items: center;
+    }
+    .container3{
+        display:flex;
+        padding: 20px;
+        color: lightgray;
+        border: solid 1px #40514E;
+        margin: 0 20px;
+        flex-direction:column;
+        align-items: center;
+    }
+    h3, .Name-Price, .description {
+        font-size:13px;
+    }
+    #Footer {
+        height: 100px;
+    }
+    .D-container {
+        margin-top: 20px;
+    }
+    #video {
+        height: 200px;
+        width: 250px;
+    }
+    .VidExp{
+        height: 450px;
+    }
+
+}
+@media (min-width: 901px){
+    #Pricing{
+        flex-wrap: wrap;
+    }
+    
+}
